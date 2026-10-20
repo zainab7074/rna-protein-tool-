@@ -1,0 +1,102 @@
+{
+ "n_tumours": 522,
+ "n_tasks_total": 29,
+ "n_informative": 24,
+ "verdicts": {
+  "No consistent difference": 17,
+  "Not predictable (best AUC < 0.65)": 4,
+  "Protein favoured": 4,
+  "RNA favoured": 3,
+  "Control task": 1
+ },
+ "median_rho_by_cancer": {
+  "Breast": 0.423,
+  "Lung adeno.": 0.534,
+  "Endometrial": 0.474,
+  "Colon": 0.337,
+  "Glioblastoma": 0.493
+ },
+ "protein_vs_rna_wilcoxon_p": {
+  "LR": 0.812,
+  "RF": 0.726,
+  "XGB": 0.903
+ },
+ "late_vs_rna": {
+  "LR": {
+   "median_delta": 0.0134,
+   "p_Wilcoxon": 0.0035
+  },
+  "RF": {
+   "median_delta": 0.0054,
+   "p_Wilcoxon": 0.178
+  },
+  "XGB": {
+   "median_delta": 0.0046,
+   "p_Wilcoxon": 0.0894
+  }
+ },
+ "late_vs_protein": {
+  "LR": {
+   "median_delta": 0.0101,
+   "p_Wilcoxon": 0.0028
+  },
+  "RF": {
+   "median_delta": 0.0045,
+   "p_Wilcoxon": 0.0284
+  },
+  "XGB": {
+   "median_delta": 0.0063,
+   "p_Wilcoxon": 0.1434
+  }
+ },
+ "cis_TS_n": 10,
+ "cis_TS_protein_better": 10,
+ "cis_TS_median_delta": 0.15,
+ "cis_TS_wilcoxon_p": 0.002,
+ "cis_OG_median_delta": -0.023,
+ "cis_TS_vs_OG_mannwhitney_p": 0.0225,
+ "cis_sig_q05": [
+  {
+   "cohort": "GBM",
+   "gene": "TP53",
+   "RNA_AUC": 0.539,
+   "Protein_AUC": 0.908,
+   "q_BH": 0.0
+  },
+  {
+   "cohort": "LUAD",
+   "gene": "TP53",
+   "RNA_AUC": 0.515,
+   "Protein_AUC": 0.843,
+   "q_BH": 0.002
+  },
+  {
+   "cohort": "UCEC",
+   "gene": "ARID1A",
+   "RNA_AUC": 0.567,
+   "Protein_AUC": 0.864,
+   "q_BH": 0.0
+  },
+  {
+   "cohort": "UCEC",
+   "gene": "CTNNB1",
+   "RNA_AUC": 0.62,
+   "Protein_AUC": 0.906,
+   "q_BH": 0.001
+  },
+  {
+   "cohort": "GBM",
+   "gene": "PTEN",
+   "RNA_AUC": 0.516,
+   "Protein_AUC": 0.759,
+   "q_BH": 0.025
+  },
+  {
+   "cohort": "LUAD",
+   "gene": "EGFR",
+   "RNA_AUC": 0.835,
+   "Protein_AUC": 0.709,
+   "q_BH": 0.001
+  }
+ ]
+}

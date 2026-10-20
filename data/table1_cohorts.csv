@@ -1,0 +1,6 @@
+Cancer,CPTAC study,Tumours,RNA genes,Proteins,Genes with both layers (≥70% observed),Median mRNA–protein ρ,Tasks,Task list
+Breast,BRCA,122,23109,9715,8156,0.42,7,ER positive (81/39); HER2 positive (13/82); Triple negative (28/91); PAM50 Basal (29/93); PAM50 LumA vs LumB (57/17); TP53 mutation (50/72); PIK3CA mutation (40/82)
+Lung adeno.,LUAD,110,18086,10316,8941,0.53,7,TP53 mutation (59/51); KRAS mutation (33/77); EGFR mutation (38/72); STK11 mutation (20/90); KEAP1 mutation (12/98); Ever smoker (56/46); Stage II+ vs I (30/46)
+Endometrial,UCEC,95,27967,10999,9301,0.47,7,MSI-high (25/70); Serous vs endometrioid (12/83); TP53 mutation (21/74); PTEN mutation (75/20); PIK3CA mutation (47/48); ARID1A mutation (43/52); CTNNB1 mutation (29/66)
+Colon,COAD,96,13481,8067,5756,0.34,3,MSI-high (22/73); Stage III/IV vs I/II (47/49); Right vs left colon (56/40)
+Glioblastoma,GBM,99,44950,10997,9555,0.49,5,TP53 mutation (32/67); PTEN mutation (27/72); EGFR mutation (17/82); NF1 mutation (15/84); Sex (control task) (55/44)
