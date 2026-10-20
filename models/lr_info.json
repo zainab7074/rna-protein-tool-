@@ -1,0 +1,350 @@
+{
+ "BRCA|ER positive|RNA": {
+  "intercept": 0.7198176908230024,
+  "C": 0.001,
+  "n": 120,
+  "n_pos": 81
+ },
+ "BRCA|ER positive|Protein": {
+  "intercept": 0.6413705497921045,
+  "C": 0.001,
+  "n": 120,
+  "n_pos": 81
+ },
+ "BRCA|HER2 positive|RNA": {
+  "intercept": -2.174736191830447,
+  "C": 0.01,
+  "n": 95,
+  "n_pos": 13
+ },
+ "BRCA|HER2 positive|Protein": {
+  "intercept": -3.829636736182904,
+  "C": 0.1,
+  "n": 95,
+  "n_pos": 13
+ },
+ "BRCA|Triple negative|RNA": {
+  "intercept": -1.2245319051306394,
+  "C": 0.001,
+  "n": 119,
+  "n_pos": 28
+ },
+ "BRCA|Triple negative|Protein": {
+  "intercept": -1.0505203203101614,
+  "C": 0.001,
+  "n": 119,
+  "n_pos": 28
+ },
+ "BRCA|PAM50 Basal|RNA": {
+  "intercept": -1.345420713956328,
+  "C": 0.001,
+  "n": 122,
+  "n_pos": 29
+ },
+ "BRCA|PAM50 Basal|Protein": {
+  "intercept": -1.246010898800825,
+  "C": 0.001,
+  "n": 122,
+  "n_pos": 29
+ },
+ "BRCA|PAM50 LumA vs LumB|RNA": {
+  "intercept": 1.5249109948191402,
+  "C": 0.01,
+  "n": 74,
+  "n_pos": 57
+ },
+ "BRCA|PAM50 LumA vs LumB|Protein": {
+  "intercept": 1.8907927597074852,
+  "C": 0.01,
+  "n": 74,
+  "n_pos": 57
+ },
+ "BRCA|TP53 mutation|RNA": {
+  "intercept": -0.20553377677845497,
+  "C": 0.001,
+  "n": 122,
+  "n_pos": 50
+ },
+ "BRCA|TP53 mutation|Protein": {
+  "intercept": -0.21032380948911164,
+  "C": 0.001,
+  "n": 122,
+  "n_pos": 50
+ },
+ "BRCA|PIK3CA mutation|RNA": {
+  "intercept": -2.2888848606085523,
+  "C": 1.0,
+  "n": 122,
+  "n_pos": 40
+ },
+ "BRCA|PIK3CA mutation|Protein": {
+  "intercept": -1.5544825236238269,
+  "C": 0.1,
+  "n": 122,
+  "n_pos": 40
+ },
+ "LUAD|TP53 mutation|RNA": {
+  "intercept": 0.05212880719822316,
+  "C": 0.001,
+  "n": 110,
+  "n_pos": 59
+ },
+ "LUAD|TP53 mutation|Protein": {
+  "intercept": 0.28056860314559146,
+  "C": 1.0,
+  "n": 110,
+  "n_pos": 59
+ },
+ "LUAD|KRAS mutation|RNA": {
+  "intercept": -1.0998396791073364,
+  "C": 0.01,
+  "n": 110,
+  "n_pos": 33
+ },
+ "LUAD|KRAS mutation|Protein": {
+  "intercept": -2.6994240382437673,
+  "C": 1.0,
+  "n": 110,
+  "n_pos": 33
+ },
+ "LUAD|EGFR mutation|RNA": {
+  "intercept": -2.1864279485604112,
+  "C": 1.0,
+  "n": 110,
+  "n_pos": 38
+ },
+ "LUAD|EGFR mutation|Protein": {
+  "intercept": -1.0617519906615998,
+  "C": 0.01,
+  "n": 110,
+  "n_pos": 38
+ },
+ "LUAD|STK11 mutation|RNA": {
+  "intercept": -1.1310780564942957,
+  "C": 0.001,
+  "n": 110,
+  "n_pos": 20
+ },
+ "LUAD|STK11 mutation|Protein": {
+  "intercept": -3.718412112116843,
+  "C": 0.1,
+  "n": 110,
+  "n_pos": 20
+ },
+ "LUAD|KEAP1 mutation|RNA": {
+  "intercept": -4.032372373665043,
+  "C": 0.1,
+  "n": 110,
+  "n_pos": 12
+ },
+ "LUAD|KEAP1 mutation|Protein": {
+  "intercept": -4.067577547231912,
+  "C": 0.1,
+  "n": 110,
+  "n_pos": 12
+ },
+ "LUAD|Ever smoker|RNA": {
+  "intercept": 0.0644025343450077,
+  "C": 0.001,
+  "n": 102,
+  "n_pos": 56
+ },
+ "LUAD|Ever smoker|Protein": {
+  "intercept": 0.06294322761903039,
+  "C": 0.001,
+  "n": 102,
+  "n_pos": 56
+ },
+ "LUAD|Stage II+ vs I|RNA": {
+  "intercept": -0.1418705731785338,
+  "C": 0.001,
+  "n": 76,
+  "n_pos": 30
+ },
+ "LUAD|Stage II+ vs I|Protein": {
+  "intercept": -0.15809644509264797,
+  "C": 0.001,
+  "n": 76,
+  "n_pos": 30
+ },
+ "UCEC|MSI-high|RNA": {
+  "intercept": -3.282519302727449,
+  "C": 1.0,
+  "n": 95,
+  "n_pos": 25
+ },
+ "UCEC|MSI-high|Protein": {
+  "intercept": -2.990086079641181,
+  "C": 1.0,
+  "n": 95,
+  "n_pos": 25
+ },
+ "UCEC|Serous vs endometrioid|RNA": {
+  "intercept": -6.497501702477431,
+  "C": 1.0,
+  "n": 95,
+  "n_pos": 12
+ },
+ "UCEC|Serous vs endometrioid|Protein": {
+  "intercept": -1.4191927144975307,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 12
+ },
+ "UCEC|TP53 mutation|RNA": {
+  "intercept": -0.6618018278703461,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 21
+ },
+ "UCEC|TP53 mutation|Protein": {
+  "intercept": -0.6496326260754484,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 21
+ },
+ "UCEC|PTEN mutation|RNA": {
+  "intercept": 3.8780369244261403,
+  "C": 1.0,
+  "n": 95,
+  "n_pos": 75
+ },
+ "UCEC|PTEN mutation|Protein": {
+  "intercept": 1.454269838917356,
+  "C": 0.01,
+  "n": 95,
+  "n_pos": 75
+ },
+ "UCEC|PIK3CA mutation|RNA": {
+  "intercept": -0.01199612905133979,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 47
+ },
+ "UCEC|PIK3CA mutation|Protein": {
+  "intercept": -0.005887374777181065,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 47
+ },
+ "UCEC|ARID1A mutation|RNA": {
+  "intercept": -0.16745524671686735,
+  "C": 0.01,
+  "n": 95,
+  "n_pos": 43
+ },
+ "UCEC|ARID1A mutation|Protein": {
+  "intercept": -0.29289730371682443,
+  "C": 1.0,
+  "n": 95,
+  "n_pos": 43
+ },
+ "UCEC|CTNNB1 mutation|RNA": {
+  "intercept": -1.725698013691081,
+  "C": 0.1,
+  "n": 95,
+  "n_pos": 29
+ },
+ "UCEC|CTNNB1 mutation|Protein": {
+  "intercept": -0.9638887931191387,
+  "C": 0.01,
+  "n": 95,
+  "n_pos": 29
+ },
+ "COAD|MSI-high|RNA": {
+  "intercept": -1.1951849989895489,
+  "C": 0.001,
+  "n": 95,
+  "n_pos": 22
+ },
+ "COAD|MSI-high|Protein": {
+  "intercept": -2.136735135003396,
+  "C": 0.01,
+  "n": 95,
+  "n_pos": 22
+ },
+ "COAD|Stage III/IV vs I/II|RNA": {
+  "intercept": -0.011273297650955695,
+  "C": 0.001,
+  "n": 96,
+  "n_pos": 47
+ },
+ "COAD|Stage III/IV vs I/II|Protein": {
+  "intercept": -0.006755619888582978,
+  "C": 0.001,
+  "n": 96,
+  "n_pos": 47
+ },
+ "COAD|Right vs left colon|RNA": {
+  "intercept": 1.098197369427325,
+  "C": 1.0,
+  "n": 96,
+  "n_pos": 56
+ },
+ "COAD|Right vs left colon|Protein": {
+  "intercept": 1.0158763088217582,
+  "C": 1.0,
+  "n": 96,
+  "n_pos": 56
+ },
+ "GBM|TP53 mutation|RNA": {
+  "intercept": -1.4162535868094017,
+  "C": 0.1,
+  "n": 99,
+  "n_pos": 32
+ },
+ "GBM|TP53 mutation|Protein": {
+  "intercept": -0.7259821588262784,
+  "C": 0.01,
+  "n": 99,
+  "n_pos": 32
+ },
+ "GBM|PTEN mutation|RNA": {
+  "intercept": -1.9844526289445341,
+  "C": 0.1,
+  "n": 99,
+  "n_pos": 27
+ },
+ "GBM|PTEN mutation|Protein": {
+  "intercept": -1.7986909260700465,
+  "C": 0.1,
+  "n": 99,
+  "n_pos": 27
+ },
+ "GBM|EGFR mutation|RNA": {
+  "intercept": -1.6280631121432998,
+  "C": 0.01,
+  "n": 99,
+  "n_pos": 17
+ },
+ "GBM|EGFR mutation|Protein": {
+  "intercept": -0.4764546893794453,
+  "C": 0.001,
+  "n": 99,
+  "n_pos": 17
+ },
+ "GBM|NF1 mutation|RNA": {
+  "intercept": -0.6484045359052419,
+  "C": 0.001,
+  "n": 99,
+  "n_pos": 15
+ },
+ "GBM|NF1 mutation|Protein": {
+  "intercept": -4.563746872959579,
+  "C": 1.0,
+  "n": 99,
+  "n_pos": 15
+ },
+ "GBM|Sex (control task)|RNA": {
+  "intercept": 0.6759173153026944,
+  "C": 1.0,
+  "n": 99,
+  "n_pos": 55
+ },
+ "GBM|Sex (control task)|Protein": {
+  "intercept": 0.37286712818930584,
+  "C": 0.1,
+  "n": 99,
+  "n_pos": 55
+ }
+}
